@@ -1,0 +1,44 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.logo-image{
+    height: 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+.navigation-section{
+    display: flex;
+    gap: 24px;
+}
+
